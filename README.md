@@ -21,7 +21,7 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=suirenn0627&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=tokyonight&title_color=bb9af7&icon_color=7c3aed&text_color=c0caf5&bg_color=1a1b27" alt="stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=suirenn0627&show_icons=true&hide_border=true&theme=tokyonight&title_color=bb9af7&icon_color=7c3aed&text_color=c0caf5&bg_color=1a1b27" alt="stats" />
 <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=suirenn0627&hide_border=true&theme=tokyonight&ring=bb9af7&fire=7c3aed&currStreakLabel=bb9af7&background=1a1b27" alt="streak" />
 
 </div>
