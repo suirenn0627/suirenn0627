@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <sub>C / C++ / Rust / Python / TypeScript · React / Next.js / FastAPI / PyTorch · AWS / GCP / Terraform / Docker</sub>
+  <sub>C / C++ / Rust / Python / TypeScript · React / Next.js / FastAPI / PyTorch · AWS / GCP / Terraform / Docker etc...</sub>
 </p>
 
 <div align="center">
