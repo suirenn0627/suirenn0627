@@ -25,7 +25,7 @@ jobs:
         uses: yoshi389111/github-profile-3d-contrib@v0.9.3
         env:
           USERNAME: ${{ github.repository_owner }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }} # private repo の活動も集計するため PAT を使う
 
       - name: Commit & push
         run: |
