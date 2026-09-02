@@ -1,3 +1,4 @@
+# コントリビューションの snake アニメーションを生成し、output ブランチに push する (README はそこを参照)。
 name: Generate Snake
 
 on:

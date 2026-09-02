@@ -1,24 +1,28 @@
+# 3D コントリビューショングラフを生成し、main の profile-3d-contrib/ に直接コミットする。
+# README はそのディレクトリ内の SVG を参照する (snake.yml は output ブランチに出す方式で系統が異なる)。
 name: Generate 3D Contribution Graph
 
 on:
   schedule:
-    - cron: "30 18 * * *" # 毎日 03:30 JST
+    - cron: "30 18 * * *" # 毎日 03:30 JST (snake の 30 分後)
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
 
+concurrency:
+  group: 3d-contrib
+  cancel-in-progress: false
+
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
       - name: Generate 3D contrib SVGs
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        # v0 系のため浮動メジャータグが無く、パッチまでピンする
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
         env:
           USERNAME: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -28,5 +32,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A profile-3d-contrib
-          git commit -m "chore: update 3d contrib graph" || echo "no changes"
+          if git diff --quiet --staged; then
+            echo "no changes"
+            exit 0
+          fi
+          git commit -m "chore: update 3d contrib graph"
+          git pull --rebase origin main
           git push
