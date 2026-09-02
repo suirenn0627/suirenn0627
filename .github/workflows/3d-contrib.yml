@@ -1,10 +1,10 @@
 # 3D コントリビューショングラフを生成し、main の profile-3d-contrib/ に直接コミットする。
-# README はそのディレクトリ内の SVG を参照する (snake.yml は output ブランチに出す方式で系統が異なる)。
+# README はそのディレクトリ内の SVG を参照する。
 name: Generate 3D Contribution Graph
 
 on:
   schedule:
-    - cron: "30 18 * * *" # 毎日 03:30 JST (snake の 30 分後)
+    - cron: "30 18 * * *" # 毎日 03:30 JST
   workflow_dispatch:
 
 permissions:
