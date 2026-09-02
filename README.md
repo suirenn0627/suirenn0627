@@ -1,7 +1,7 @@
 <h1 align="center">suirenn0627</h1>
 
 <p align="center">
-  <b>Ayu</b> · Engineer @ CleanRobotics · 東京大学理科一類 / 42Tokyo
+  <b>Ayu</b> · Engineer @ CleanRobotics · The University of Tokyo / 42Tokyo
 </p>
 
 <p align="center">
