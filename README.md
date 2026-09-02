@@ -1,19 +1,43 @@
 <h1 align="center">suirenn0627</h1>
 
 <p align="center">
+  <b>Ayu</b> · Engineer @ CleanRobotics · 東京大学理科一類 / 42Tokyo
+</p>
+
+<p align="center">
   <a href="https://ayu-portfolio.nymphaea.dev/">
     <img src="https://img.shields.io/badge/Portfolio-7c3aed?style=flat-square&logo=vercel&logoColor=white" alt="portfolio" />
+  </a>
+  <a href="https://x.com/suirenn0627">
+    <img src="https://img.shields.io/badge/X-1a1b27?style=flat-square&logo=x&logoColor=white" alt="x" />
+  </a>
+  <a href="https://qiita.com/ayu_sui">
+    <img src="https://img.shields.io/badge/Qiita-55c500?style=flat-square&logo=qiita&logoColor=white" alt="qiita" />
+  </a>
+  <a href="https://note.com/suisuiren">
+    <img src="https://img.shields.io/badge/note-41c9b4?style=flat-square&logoColor=white" alt="note" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=suirenn0627&style=flat-square&color=7c3aed&label=views" alt="views" />
 </p>
 
+<p align="center">
+  アルゴリズム実装から Web アプリケーション開発、機械学習・データ分析まで幅広く学習中。<br/>
+  Private repo で研究開発していることが多いです。
+</p>
+
+<br/>
+
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,html,css,python,fastapi,nodejs,pytorch,docker,linux&theme=dark&perline=12" alt="stack" />
+<img src="https://skillicons.dev/icons?i=c,cpp,rust,python,ts,js,swift&theme=dark" alt="languages" />
 <br/>
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,vim,bash&theme=dark" alt="tools" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,fastapi,pytorch,postgres,mysql,supabase,firebase&theme=dark&perline=10" alt="frameworks and databases" />
+<br/>
+<img src="https://skillicons.dev/icons?i=aws,gcp,terraform,vercel,docker,githubactions,git,github&theme=dark" alt="cloud and devops" />
+<br/>
+<img src="https://skillicons.dev/icons?i=vscode,neovim,bash,linux,apple,latex,notion&theme=dark" alt="tools" />
 
-<sub>+ uv · pnpm · mise · music21 · OSMD · ONNX · Claude API</sub>
+<sub>+ uv · pnpm · mise · Pytest · Playwright · Biome · Claude Code</sub>
 
 </div>
 
@@ -21,14 +45,7 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=suirenn0627&show_icons=true&hide_border=true&theme=tokyonight&title_color=bb9af7&icon_color=7c3aed&text_color=c0caf5&bg_color=1a1b27" alt="stats" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=suirenn0627&hide_border=true&theme=tokyonight&ring=bb9af7&fire=7c3aed&currStreakLabel=bb9af7&background=1a1b27" alt="streak" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=suirenn0627&theme=tokyo-night&bg_color=1a1b27&color=bb9af7&line=7c3aed&point=c0caf5&hide_border=true&area=true&height=300" alt="activity graph" width="98%" />
+<img height="165" src="https://streak-stats.demolab.com/?user=suirenn0627&hide_border=true&theme=tokyonight&ring=bb9af7&fire=7c3aed&currStreakLabel=bb9af7&background=1a1b27" alt="streak" />
 
 </div>
 
