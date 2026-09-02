@@ -25,7 +25,11 @@ jobs:
         uses: yoshi389111/github-profile-3d-contrib@v0.9.3
         env:
           USERNAME: ${{ github.repository_owner }}
-          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }} # private repo の活動も集計するため PAT を使う
+          # PAT でも private repo の内訳(コミット種別・言語)は API が返さないので既定トークンで足りる
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Strip public-only panels
+        run: python3 .github/scripts/strip_panels.py profile-3d-contrib/*.svg
 
       - name: Commit & push
         run: |
